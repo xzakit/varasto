@@ -1,0 +1,608 @@
+  html{
+    height:100%;
+    width: 100%;
+  }
+  
+  body{  
+    padding: 0px 0px;
+    margin: 0px 0px;
+    height:100%;
+    overflow-x: hidden;
+    background-color: rgba(255, 255, 255, 0.849);
+    z-index: 1000;
+  }
+
+  /*The main header text and image*/
+
+  .wrap img{
+    max-height: 55%;
+    max-width: 55%;
+    position: absolute;
+    z-index: 99;
+    border: solid;
+    border-color: rgba(39, 39, 39, 0.6);
+    border-width: 8px;
+    border-radius: 100%;
+    margin: auto;
+    padding: 0%;
+    margin-top: 0%;
+    top: 10%;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+  }
+  
+  .main h1{
+ 
+    font-family: futura;
+    text-align:center;
+    color:white;
+    position: absolute;
+    top:72%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size:40px;
+    font-style: normal;
+    z-index: 99;
+    margin: auto;
+        
+  }
+
+  .main h1 em{
+    color:rgb(212, 211, 211);
+  }
+
+  .main strong{
+    color: rgb(0, 74, 104);
+    font-style: bold;
+  
+  }
+
+  .main{
+    background-image:url("https://i.imgur.com/e5d5jMH.jpg"); 
+    background-size: cover;
+    background-position: center;
+    height: 110%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0px;
+    margin: -5%;
+    /*border-bottom: solid;*/
+    z-index: 1;
+  /*  -webkit-background-size: cover;
+    -moz-background-size:cover;
+    -o-background-size: cover; */
+    overflow-x: hidden;
+    width: 109%;
+    border-bottom: rgb(0, 0, 0) solid;
+  }
+ 
+    /* navigation bar*/
+
+  .some{
+    padding-top: 0px;
+  }
+  .some li{
+    display: inline-block;
+    margin-right: 0px;
+    margin-left: 30px;
+    color: aliceblue;
+  }
+
+  .container {
+    max-width: 100%; 
+    margin-top: 0px;
+    background-repeat: no-repeat;
+  }
+ 
+  .nav { 
+    height: 100px; 
+    width: 100%;
+    text-align: right;
+    position: fixed;    
+    background: rgba(0, 0, 0, 0.274);
+    /*background-image: url(https://i.imgur.com/e5d5jMH.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    */
+    z-index: 100;
+    /*background: rgba(245, 58, 58, 0.575);*/
+  }
+
+  .nav ul {
+    height: 40px;
+    list-style: none;
+    margin: 0 auto; 
+    padding: 0;
+
+  }
+  
+  .nav ul li {
+    z-index: 101;
+    color: rgb(255, 255, 255);
+    display: inline-block; 
+    height: 100px;
+    line-height: 160px; 
+    list-style: none;
+    padding: 0 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+
+  .nav ul li:hover {
+    cursor: pointer; 
+    color: rgb(93, 93, 93);
+    transition: .5s;
+    
+  }
+
+  /*Midsection*/
+
+  .plaintext{
+    margin-top: 8%;
+    width: 100%;
+    z-index: 1000;
+    overflow: hidden;
+
+  }
+
+  .plaintext h1 {
+    font-family: futura;
+    margin-bottom: 4%;
+    width: 100%;
+    /*text-decoration: #012C30 underline;*/
+    text-decoration-style: solid;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 0%;
+    color: #000000;
+    font-size: 150%;
+    text-align: center;
+    z-index: 101;
+  }
+
+  .intro p{
+    text-align: center;
+    padding: 60px;
+    margin-top: 0%;
+    padding-top: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left:0%;
+    padding-right: 0%;
+    /*border: solid;*/
+    background-color:inherit;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    max-width: 50%;
+    margin-bottom: 0%;
+    padding-bottom: 2%;
+    font-size: 100%;
+  }
+
+  .illus img {
+    width: 30%;
+    height: 30%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    display: inline-block;
+    border: solid;
+    border-color: rgb(0, 0, 0);
+    
+  }
+
+  .illus {
+    max-height: 100%;
+    z-index: 2;
+    text-align: center;
+  }
+
+  /* skills section*/
+
+ .skills{
+   background-color: rgb(49, 49, 49);
+
+ }
+
+ .skills h1{
+  font-family: futura;
+  margin-bottom: 0%;
+  width: 100%;
+  text-decoration-style: solid;
+  margin-left: 0%;
+  margin-top: 3%;
+  color: #ffffff;
+  font-size: 150%;
+  text-align: center;
+  text-decoration: rgb(255, 255, 255) underline;
+  z-index: 301;
+ }
+
+ .skills p{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 33%;
+  padding-bottom: 3%;
+  color: white;
+}
+
+ .skills .chem p{
+  margin-left: 10%;
+  padding-bottom: 3%;
+ }
+
+ .skills .dev p{
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url("https://images.pexels.com/photos/872958/pexels-photo-872958.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  padding: 34%;
+  padding-top: 5%;
+  padding-bottom:5%;
+  color: rgb(0, 0, 0);
+
+ }
+
+ .skills .lang p{
+  padding-top: 3%;
+  text-align: right;
+  margin-right: 10%;
+  margin-left: auto;
+  padding-bottom: 10%;
+  
+ }
+
+ .heading p {
+   font-family: futura;
+  text-align: center;
+  margin-left:auto;
+  margin-right: auto;
+  padding-bottom: 2%;
+  font-style: italic;
+  font-size: 90%;
+  color: #f7f7f7;
+ }
+
+ .chem img {
+   top: 0%;
+   max-width: 30%;
+   border-style: solid;
+   float: right;
+   position: inline-block;
+   margin-right: 10%;
+   z-index: 1;
+  border-color: white;
+ }
+
+ .lang img {
+  margin-top: 3%;
+  max-width: 30%;
+  border-style: solid;
+  float: left;
+  position: inline-block;
+  margin-left: 10%;
+  z-index: 1;
+  border-color: white;
+  
+}
+
+  /*Recap*/
+
+  .summary {
+    text-align: center;
+    background-color: rgb(31, 31, 31);
+    font-family: futura;
+    margin-top: 0%;
+    padding-top: 3%;
+    color: #ffffff;
+    z-index: 10000;
+    border-bottom: solid;
+  }
+
+
+  .summary h1 {
+    font-family: futura;
+    margin-bottom: 0%;
+    width: 100%;
+    text-decoration-style: solid;
+    margin-left: 0%;
+    margin-top: 0% ;
+    padding-top: 2%;
+    color: #ffffff;
+    font-size: 150%;
+    text-align: center;
+    text-decoration: rgb(255, 255, 255) underline;
+    z-index: 301;
+  }
+
+  .summary p {
+    font-size: 90%;
+    font-family: futura;
+    font-style: italic;
+    color: #f7f7f7;
+    text-align: center;
+    margin-bottom: 0%;
+  }
+
+  .entries{
+    display: grid;
+    width: 100%;
+    height: 75%;
+    grid-gap: 20%;
+    grid-template-columns: 30% 30%;
+    grid-template-rows: 50% 50%;
+    align-content: top;
+    justify-items: center;
+    justify-content: center;
+    background-color: inherit;
+    color: rgb(255, 255, 255);
+    padding-top: 0%;
+    padding-bottom: 2%;
+    opacity:0;
+    transition: opacity 1s ease-in-out;
+    
+  }
+
+  .summary:hover .entries{
+    opacity: 100;
+  }
+
+  .deg{
+    grid-area: 1 / 1 / 2 / 2;
+    font-size: 90%;
+    color: #d8d8d8;
+  }
+
+  .deg img {
+    width: 118%;
+  }
+
+  .work{
+    text-align: center;
+    font-size: 90%;
+    color: #d8d8d8;
+  }
+
+  .work img{
+    padding:10%;
+    width:90%;
+    padding-bottom: 15%;
+  }
+
+  .translation {
+    grid-area: 2 / 2 / 2 / 2;
+  }
+
+  /*contacts area*/
+
+  .email {
+    height: 110%;
+    text-align: center;
+    background-image:url("https://i.imgur.com/e5d5jMH.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .email h1{
+    margin-top:0%;
+    padding-top: 5%;
+    font-family: futura;
+    color: white;
+  }
+
+  .email h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(241, 241, 241);
+  }
+
+  
+
+  input[type=text]{
+    position: block;
+    width: 29%;
+    padding: 1%;
+    margin-top:3%;
+    background: inherit;
+    border: solid;
+    color: white;
+    font-size: 20px;
+  }
+
+  textarea[type=message]{
+    position: block;
+    width: 60%;
+    height: 200px;
+    padding-bottom: 200px;
+    margin-top:3%;
+    background: inherit;
+    border: solid;
+    color: white;
+    padding: 18px 20px;
+    margin-bottom: 42px;
+    font-size: 15px;
+    resize: vertical;
+  }
+
+  input[type=submit]{
+    position: block;
+    width: 63%;
+    padding: 2%;
+    font-size: 20px;
+    border: solid rgb(212, 211, 211);
+    background: inherit;
+    color: rgb(212, 211, 211)
+  }
+
+  input[type=submit]:hover{
+    border: solid rgb(255, 255, 255);
+    color: white;
+    background: rgba(104, 104, 104, 0.609);
+    transition: .8s ease-in-out;
+    
+  }
+
+  ::placeholder{
+    color:rgb(221, 220, 220);
+  }
+
+  /*footer area.*/
+
+  .contact{
+    height: 120px;
+    background:white;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(148, 148, 148);
+    border-top: #ffffff solid;
+    z-index: 200;
+  }
+
+  .contact ul{
+    position: relative;
+    top: 30%;
+    padding-left: 0%;
+  }
+
+  .contact li{
+    display:block;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative; 
+  }
+
+  .some2 li{
+    display: inline-block;
+    padding-right: 30px;
+    background-color: black;
+  }
+
+  .fa {
+    font-size: 30px;
+    width: 32px;
+    color: inherit;
+    position: absolute;
+    top: 6px;
+    z-index: 400;
+  }
+
+  .ka {
+    position: fixed;
+    top: 3px;
+  }
+
+  .resume {
+    font-size: 60px;
+    color: white;
+    padding-bottom: 10%;
+  }
+
+  .resume:hover{
+    color: gray;
+    transition: .3s;
+  }
+
+  .linkedin:hover {
+    color: #4875B4;
+    transition: .5s; 
+  }
+
+  .twitter:hover {
+    color: #00aced;
+    transition: .5s; 
+  }
+
+  .instagram:hover{
+      color: #fbad50;
+      transition: .5s; 
+  }
+
+  @media screen and (max-width: 600px) {
+  
+    .skills p{
+      text-align: center;
+      margin-right: auto;
+      margin-left: auto;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      width: 80%;
+    }
+
+    .plaintext .chem p {
+      z-index: 20;
+      background-image:url("http://materialbank.aalto.fi/BetterDownloader.ashx?rid=d813102f-3fb1-425f-a4d0-a1b200b5233b&show=");
+      background-position: center;
+      background-size: 100%;
+      margin-right: auto;
+      margin-left: auto;
+      padding: 10%;
+      margin-bottom:0%;
+      color: rgb(255, 255, 255);
+    }
+
+    .plaintext .dev p {
+      padding: 10%;
+      background-color: rgb(97, 97, 97);
+      background-image:url("https://images.pexels.com/photos/597330/pexels-photo-597330.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+      background-position-y: 60%;
+      margin-top: 0%;
+
+    }
+    .plaintext .lang p {
+      text-align: center;
+      padding: 10%;
+      background-image: url("https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+      background-position-y: 60%;
+    }
+    
+
+    .entries {
+      grid-template-columns: 40% 40%;
+      grid-gap: 5%;
+    }
+
+    .deg img{
+      width: 100%;
+    }
+
+    .nav{
+        height: 65px; 
+        width: 100%;
+        text-align: right;
+        position: fixed;
+        z-index: 300;
+        /*background-color: rgba(168, 0, 0, 0.534);*/
+    }
+
+    .nav ul li {
+      z-index: 101;
+      color: rgb(255, 255, 255);
+      display: inline-block; 
+      height: 100px;
+      line-height: 90px; 
+      list-style: none;
+      padding: 0 10px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+
+    .illus img {
+      width: 50%;
+      height: 50%;
+      margin-bottom: 20px;
+      /*margin-left: 20%;*/
+      display: inline-block;
+      border: solid;
+      border-color: rgb(0, 0, 0);
+      
+    }
+
+    .chem img{
+      display:none;
+    }
+
+    .lang img{
+      display: none;
+    }
+
+
+
+
+  }
